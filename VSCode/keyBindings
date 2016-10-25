@@ -1,0 +1,13 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "tab",
+        "command": "acceptSnippet",
+        "when": "editorTextFocus && inSnippetMode"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestionOnEnter",
+        "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible"
+    }
+]
